@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.applearn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.activitymonhoc.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.activitymonhoc.MonTiengAnhActivity"></activity>
+        <activity android:name=".activity.activitymonhoc.MonTiengVietActivity"></activity>
+        <activity android:name=".activity.activitymonhoc.MonToanActivity"></activity>
+        <activity android:name=".activity.activitymonhoc.MonXaHoiActivity"></activity>
+
+        <activity android:name=".activity.activitydanhsachlop.LopTiengAnhActivity"></activity>
+        <activity android:name=".activity.activitydanhsachlop.LopTiengVietActivity"></activity>
+        <activity android:name=".activity.activitydanhsachlop.LopToanActivity"></activity>
+        <activity android:name=".activity.activitydanhsachlop.LopXaHoiActivity"></activity>
+
+        <activity android:name=".activity.activityhocbai.HBTiengAnhActivity"></activity>
+        <activity android:name=".activity.activityhocbai.HBTiengVietActivity"></activity>
+        <activity android:name=".activity.activityhocbai.HBToanActivity"></activity>
+        <activity android:name=".activity.activityhocbai.HBXaHoiActivity"></activity>
+
+        <activity android:name=".activity.activitykiemtra.KTTiengAnhActivity"></activity>
+        <activity android:name=".activity.activitykiemtra.KTTiengVietAcivity"></activity>
+        <activity android:name=".activity.activitykiemtra.KTToanActivity"></activity>
+        <activity android:name=".activity.activitykiemtra.KTXaHoiActivity"></activity>
+    </application>
+
+</manifest>
